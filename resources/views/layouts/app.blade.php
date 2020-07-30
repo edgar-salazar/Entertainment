@@ -86,21 +86,4 @@
         </main>
     </div>
 </body>
-<footer class="container-fluid">
-            <div class="row justify-content-center pt-5">
-                <div class="col-4 text-center pb-4">
-                    <h3>LOCATION</h3>
-                    <p>Guadalajara Guadalajara ! </p>
-                </div>
-                <div class="col-4 text-center pb-4">
-                    <h3>ABOUT FREELANCER</h3>
-                    <p>
-
-                    </p>
-                </div>
-                <div class="col-12 pt-3 text-center" style="background-color: #1A252F;">
-                    <p>Ésta página y tu alma me pertenece PRRO!</p>
-                </div>
-            </div>
-        </footer>
 </html>
