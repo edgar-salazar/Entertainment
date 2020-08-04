@@ -70,9 +70,9 @@ body {
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
-  color: #212529;
+  color: white;
   text-align: left;
-  background-color: #f8fafc;
+  background-color: #454253;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -170,13 +170,13 @@ sup {
 }
 
 a {
-  color: #3490dc;
+  color: #FBCA03;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #1d68a7;
+  color:  #6A0C0B;
   text-decoration: underline;
 }
 
@@ -389,6 +389,7 @@ h6,
 
 h1,
 .h1 {
+  font-weight: bold;
   font-size: 2.25rem;
 }
 
@@ -399,6 +400,7 @@ h2,
 
 h3,
 .h3 {
+  font-weight: bold;
   font-size: 1.575rem;
 }
 
@@ -1806,7 +1808,7 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529;
+  color: white;
 }
 
 .table th,
@@ -2158,10 +2160,10 @@ pre code {
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
-  color: #495057;
+  color: black;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #999999;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2212,7 +2214,7 @@ pre code {
 
 .form-control:disabled,
 .form-control[readonly] {
-  background-color: #e9ecef;
+  background-color: #999999;
   opacity: 1;
 }
 
@@ -2835,8 +2837,8 @@ fieldset:disabled a.btn {
 
 .btn-info:hover {
   color: #fff;
-  background-color: #4aa0e6;
-  border-color: #3f9ae5;
+  background-color: #3490dc;
+  border-color: #3490dc;
 }
 
 .btn-info:focus,
@@ -4874,7 +4876,7 @@ input[type=button].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: yellow;
+  color: whitesmoke;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -4894,8 +4896,8 @@ input[type=button].btn-block {
 }
 
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
-  border-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  border-color: white;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -4972,7 +4974,7 @@ input[type=button].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #008DC8;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -5573,7 +5575,7 @@ a.badge-dark.focus {
 }
 
 .alert-secondary hr {
-  border-top-color: #c8cbcf;
+  border-top-color: #008DC8;
 }
 
 .alert-secondary .alert-link {
@@ -5769,7 +5771,7 @@ a.badge-dark.focus {
   position: relative;
   display: block;
   padding: 0.75rem 1.25rem;
-  background-color: #fff;
+  background-color: #008DC8;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
@@ -10791,7 +10793,7 @@ a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #6A0C0B !important;
 }
 
 .text-black-50 {

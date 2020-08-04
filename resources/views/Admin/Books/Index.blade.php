@@ -9,12 +9,12 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Title</th>
-                        <th scope="col">Author</th>
-                        <th scope="col">Page Count</th>
-                        <th scope="col">Country</th>
-                        <th scope="col">Options</th>
+                        <th scope="col" style="color: black;">#</th>
+                        <th scope="col" style="color: black;">Title</th>
+                        <th scope="col" style="color: black;">Author</th>
+                        <th scope="col" style="color: black;">Page Count</th>
+                        <th scope="col" style="color: black;">Country</th>
+                        <th scope="col" style="color: black;">Options</th>
                     </tr>
                 </thead>
                 <tbody>

@@ -21,11 +21,13 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #D82020;">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
         <!-- Navbar content -->
         <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'FrikiTK') }}
+                    <strong>
+                        {{ config('app.name', 'FrikiTK') }}
+                    </strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -86,21 +88,4 @@
         </main>
     </div>
 </body>
-<footer class="container-fluid">
-            <div class="row justify-content-center pt-5">
-                <div class="col-4 text-center pb-4">
-                    <h3>LOCATION</h3>
-                    <p>Guadalajara Guadalajara ! </p>
-                </div>
-                <div class="col-4 text-center pb-4">
-                    <h3>ABOUT FREELANCER</h3>
-                    <p>
-
-                    </p>
-                </div>
-                <div class="col-12 pt-3 text-center" style="background-color: #1A252F;">
-                    <p>Ésta página y tu alma me pertenece PRRO!</p>
-                </div>
-            </div>
-        </footer>
 </html>

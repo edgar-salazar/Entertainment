@@ -21,7 +21,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #D82020;">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/admin/') }}">
                     {{ config('app.name', 'FrikiWiki') }}
